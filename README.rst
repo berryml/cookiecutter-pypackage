@@ -25,7 +25,7 @@ Connect the new local cookiecutter folder with the newly created repo::
     git init
     git add .
     git commit -m "initial commit"
-    git remote add origin https://github.com/username/repo.git
+    git remote add origin git@github.com:username/repo.git
     git remote -v
     git push origin main
 
