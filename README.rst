@@ -2,7 +2,7 @@
 cookiecutter-pypackage
 ======================
 
-Cookiecutter template for a Python package. See https://github.com/audreyr/cookiecutter.
+Cookiecutter template for a Python package based on https://github.com/Nekroze/cookiecutter-pypackage.
 
 * Free software: BSD license
 * Pytest_ runner: Supports `unittest`, `pytest`, `nose` style tests and more
@@ -16,9 +16,18 @@ Usage
 
 Generate a Python package project::
 
-    cookiecutter https://github.com/Nekroze/cookiecutter-pypackage.git
+    cookiecutter https://github.com/berryml/cookiecutter-pypackage.git
 
-Then:
+Create a repo.
+
+Connect the new local cookiecutter folder with the newly created repo::
+    cd cookiecutter-pypackage
+    git init
+    git add .
+    git commit -m "initial commit"
+    git remote add origin https://github.com/username/repo.git
+    git remote -v
+    git push origin main
 
 * Create a repo and put it there.
 * Add the repo to your Travis CI account.
