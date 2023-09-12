@@ -20,7 +20,8 @@ Generate a Python package project::
 
 Create a repo.
 
-Connect the new local cookiecutter folder with the newly created repo::
+Connect the new local cookiecutter folder with the newly created repo
+::
     cd cookiecutter-pypackage
     git init
     git add .
@@ -28,6 +29,7 @@ Connect the new local cookiecutter folder with the newly created repo::
     git remote add origin git@github.com:username/repo.git
     git remote -v
     git push origin main
+::
 
 * Create a repo and put it there.
 * Add the repo to your Travis CI account.
